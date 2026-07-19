@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
+
+      .bg { fill: #0d0b0a; }
+
+      .section-header {
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #b4544a;
+        letter-spacing: 3px;
+      }
+
+      .tech-item {
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
+        font-size: 13px;
+        fill: #f0ede6;
+      }
+
+      .box-outline {
+        stroke: #f0ede6;
+        stroke-opacity: 0.3;
+        stroke-width: 1.5;
+        fill: #0d0b0a;
+        rx: 6;
+      }
+
+      .box-highlight {
+        stroke: #b4544a;
+        stroke-width: 1.5;
+        fill: none;
+      }
+
+      .accent-dot {
+        fill: #b4544a;
+      }
+
+      /* Subtle reveal animation */
+      .fade-stack {
+        animation: stackFade 10s ease-in-out infinite;
+      }
+
+      @keyframes stackFade {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="240" rx="8" />
+
+  <!-- Main Section Title -->
+  <text x="40" y="35" class="section-header">// TECHNICAL STACK &amp; CAPABILITIES</text>
+  <line x1="330" y1="30" x2="760" y2="30" stroke="#f0ede6" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4" />
+
+  <g class="fade-stack">
+    <!-- COL 1: LANGUAGES -->
+    <g transform="translate(40, 55)">
+      <rect class="box-outline" width="165" height="155" />
+      <line x1="15" y1="32" x2="150" y2="32" stroke="#b4544a" stroke-width="1" />
+      <text x="15" y="24" class="tech-item" font-weight="700" fill="#b4544a">LANGUAGES</text>
+      
+      <circle cx="20" cy="50" class="accent-dot" r="2.5" />
+      <text x="32" y="54" class="tech-item">TypeScript</text>
+
+      <circle cx="20" cy="72" class="accent-dot" r="2.5" />
+      <text x="32" y="76" class="tech-item">Rust</text>
+
+      <circle cx="20" cy="94" class="accent-dot" r="2.5" />
+      <text x="32" y="98" class="tech-item">Go</text>
+
+      <circle cx="20" cy="116" class="accent-dot" r="2.5" />
+      <text x="32" y="120" class="tech-item">Python</text>
+
+      <circle cx="20" cy="138" class="accent-dot" r="2.5" />
+      <text x="32" y="142" class="tech-item">C / C++</text>
+    </g>
+
+    <!-- COL 2: FRONTEND & UI -->
+    <g transform="translate(225, 55)">
+      <rect class="box-outline" width="165" height="155" />
+      <line x1="15" y1="32" x2="150" y2="32" stroke="#b4544a" stroke-width="1" />
+      <text x="15" y="24" class="tech-item" font-weight="700" fill="#b4544a">FRONTEND</text>
+
+      <circle cx="20" cy="50" class="accent-dot" r="2.5" />
+      <text x="32" y="54" class="tech-item">React / Next.js</text>
+
+      <circle cx="20" cy="72" class="accent-dot" r="2.5" />
+      <text x="32" y="76" class="tech-item">SVG / Canvas</text>
+
+      <circle cx="20" cy="94" class="accent-dot" r="2.5" />
+      <text x="32" y="98" class="tech-item">WebGL / Three</text>
+
+      <circle cx="20" cy="116" class="accent-dot" r="2.5" />
+      <text x="32" y="120" class="tech-item">Tailwind CSS</text>
+
+      <circle cx="20" cy="138" class="accent-dot" r="2.5" />
+      <text x="32" y="142" class="tech-item">WebAssembly</text>
+    </g>
+
+    <!-- COL 3: BACKEND & INFRA -->
+    <g transform="translate(410, 55)">
+      <rect class="box-outline" width="165" height="155" />
+      <line x1="15" y1="32" x2="150" y2="32" stroke="#b4544a" stroke-width="1" />
+      <text x="15" y="24" class="tech-item" font-weight="700" fill="#b4544a">BACKEND</text>
+
+      <circle cx="20" cy="50" class="accent-dot" r="2.5" />
+      <text x="32" y="54" class="tech-item">Node.js / Express</text>
+
+      <circle cx="20" cy="72" class="accent-dot" r="2.5" />
+      <text x="32" y="76" class="tech-item">PostgreSQL</text>
+
+      <circle cx="20" cy="94" class="accent-dot" r="2.5" />
+      <text x="32" y="98" class="tech-item">Redis / Caching</text>
+
+      <circle cx="20" cy="116" class="accent-dot" r="2.5" />
+      <text x="32" y="120" class="tech-item">GraphQL / REST</text>
+
+      <circle cx="20" cy="138" class="accent-dot" r="2.5" />
+      <text x="32" y="142" class="tech-item">gRPC / Microservices</text>
+    </g>
+
+    <!-- COL 4: DEVOPS & TOOLS -->
+    <g transform="translate(595, 55)">
+      <rect class="box-outline" width="165" height="155" />
+      <line x1="15" y1="32" x2="150" y2="32" stroke="#b4544a" stroke-width="1" />
+      <text x="15" y="24" class="tech-item" font-weight="700" fill="#b4544a">SYSTEMS &amp; TOOLS</text>
+
+      <circle cx="20" cy="50" class="accent-dot" r="2.5" />
+      <text x="32" y="54" class="tech-item">Docker / K8s</text>
+
+      <circle cx="20" cy="72" class="accent-dot" r="2.5" />
+      <text x="32" y="76" class="tech-item">Linux / Shell</text>
+
+      <circle cx="20" cy="94" class="accent-dot" r="2.5" />
+      <text x="32" y="98" class="tech-item">Git / GitHub Actions</text>
+
+      <circle cx="20" cy="116" class="accent-dot" r="2.5" />
+      <text x="32" y="120" class="tech-item">Neovim / CLI</text>
+
+      <circle cx="20" cy="138" class="accent-dot" r="2.5" />
+      <text x="32" y="142" class="tech-item">Figma / UI Design</text>
+    </g>
+  </g>
+</svg>
