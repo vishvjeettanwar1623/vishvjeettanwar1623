@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
+
+      .bg { fill: #0d0b0a; }
+
+      .section-header {
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #b4544a;
+        letter-spacing: 3px;
+      }
+
+      .project-card {
+        stroke: #f0ede6;
+        stroke-opacity: 0.35;
+        stroke-width: 1.5;
+        fill: #0d0b0a;
+        rx: 6;
+      }
+
+      .card-title {
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
+        font-size: 16px;
+        font-weight: 700;
+        fill: #f0ede6;
+      }
+
+      .card-desc {
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
+        font-size: 12px;
+        fill: #f0ede6;
+        opacity: 0.75;
+      }
+
+      .tag-text {
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
+        font-size: 11px;
+        fill: #b4544a;
+      }
+
+      .tag-box {
+        stroke: #b4544a;
+        stroke-width: 1;
+        fill: none;
+        rx: 4;
+      }
+
+      .pen-line {
+        stroke: #f0ede6;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+      }
+
+      .accent-line {
+        stroke: #b4544a;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        fill: none;
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="360" rx="8" />
+
+  <!-- Section Header -->
+  <text x="40" y="35" class="section-header">// FEATURED WORKS &amp; PROJECTS</text>
+  <line x1="310" y1="30" x2="760" y2="30" stroke="#f0ede6" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- PROJECT 1 -->
+  <g transform="translate(40, 55)">
+    <rect class="project-card" width="720" height="85" />
+    <!-- Line art icon/preview box -->
+    <rect class="pen-line" x="18" y="18" width="48" height="48" rx="4" />
+    <path class="accent-line" d="M 28 32 L 36 44 L 56 26" />
+    
+    <text x="82" y="36" class="card-title">hyper-core / distributed-kv</text>
+    <text x="82" y="56" class="card-desc">Low-latency distributed key-value store built in Rust featuring Raft consensus and zero-copy I/O.</text>
+
+    <!-- Tags right aligned -->
+    <rect class="tag-box" x="530" y="24" width="55" height="22" />
+    <text x="540" y="39" class="tag-text">Rust</text>
+
+    <rect class="tag-box" x="592" y="24" width="55" height="22" />
+    <text x="602" y="39" class="tag-text">Raft</text>
+
+    <rect class="tag-box" x="654" y="24" width="55" height="22" />
+    <text x="664" y="39" class="tag-text">gRPC</text>
+  </g>
+
+  <!-- PROJECT 2 -->
+  <g transform="translate(40, 155)">
+    <rect class="project-card" width="720" height="85" />
+    <!-- Line art icon/preview box -->
+    <rect class="pen-line" x="18" y="18" width="48" height="48" rx="4" />
+    <circle cx="42" cy="42" r="14" class="pen-line" />
+    <line x1="42" y1="28" x2="42" y2="56" class="accent-line" />
+
+    <text x="82" y="36" class="card-title">canvas-engine / vector-render</text>
+    <text x="82" y="56" class="card-desc">High-performance 2D SVG &amp; Canvas render pipeline with declarative SMIL keyframe compilers.</text>
+
+    <!-- Tags right aligned -->
+    <rect class="tag-box" x="500" y="24" width="85" height="22" />
+    <text x="508" y="39" class="tag-text">TypeScript</text>
+
+    <rect class="tag-box" x="592" y="24" width="55" height="22" />
+    <text x="602" y="39" class="tag-text">WebGL</text>
+
+    <rect class="tag-box" x="654" y="24" width="55" height="22" />
+    <text x="666" y="39" class="tag-text">SVG</text>
+  </g>
+
+  <!-- PROJECT 3 -->
+  <g transform="translate(40, 255)">
+    <rect class="project-card" width="720" height="85" />
+    <!-- Line art icon/preview box -->
+    <rect class="pen-line" x="18" y="18" width="48" height="48" rx="4" />
+    <path class="accent-line" d="M 26 48 L 36 34 L 46 42 L 56 28" />
+
+    <text x="82" y="36" class="card-title">pulse-ui / minimalist-design-system</text>
+    <text x="82" y="56" class="card-desc">Zero-dependency component architecture prioritizing accessibility, micro-animations, and warm dark modes.</text>
+
+    <!-- Tags right aligned -->
+    <rect class="tag-box" x="515" y="24" width="70" height="22" />
+    <text x="525" y="39" class="tag-text">React</text>
+
+    <rect class="tag-box" x="592" y="24" width="55" height="22" />
+    <text x="602" y="39" class="tag-text">CSS</text>
+
+    <rect class="tag-box" x="654" y="24" width="55" height="22" />
+    <text x="664" y="39" class="tag-text">A11y</text>
+  </g>
+</svg>
