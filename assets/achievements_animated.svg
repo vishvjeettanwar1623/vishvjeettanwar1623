@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="haloGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="50%" stop-color="#7ee787" />
+      <stop offset="100%" stop-color="#a371f7" />
+    </linearGradient>
+
+    <style>
+      .bg { fill: #0d1117; rx: 10px; stroke: #30363d; stroke-width: 1; }
+
+      .halo-ring {
+        fill: none;
+        stroke: url(#haloGrad);
+        stroke-width: 3;
+        stroke-dasharray: 200;
+        animation: rotateHalo 6s linear infinite;
+        transform-origin: center;
+      }
+
+      .badge-glow {
+        animation: floatBadge 3s ease-in-out infinite;
+      }
+
+      .b1 { animation-delay: 0.0s; }
+      .b2 { animation-delay: 0.3s; }
+      .b3 { animation-delay: 0.6s; }
+
+      @keyframes rotateHalo {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes floatBadge {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect class="bg" width="500" height="130" />
+
+  <!-- Badge 1: YOLO -->
+  <g class="badge-glow b1" transform="translate(60, 15)">
+    <circle class="halo-ring" cx="50" cy="50" r="48" />
+    <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
+      <image href="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" x="2" y="2" width="96" height="96" />
+    </a>
+  </g>
+
+  <!-- Badge 2: Quickdraw -->
+  <g class="badge-glow b2" transform="translate(200, 15)">
+    <circle class="halo-ring" cx="50" cy="50" r="48" />
+    <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
+      <image href="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" x="2" y="2" width="96" height="96" />
+    </a>
+  </g>
+
+  <!-- Badge 3: Pull Shark -->
+  <g class="badge-glow b3" transform="translate(340, 15)">
+    <circle class="halo-ring" cx="50" cy="50" r="48" />
+    <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
+      <image href="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" x="2" y="2" width="96" height="96" />
+    </a>
+  </g>
+</svg>

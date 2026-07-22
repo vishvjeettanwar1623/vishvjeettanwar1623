@@ -1,11 +1,18 @@
 <div align="center">
-  <!-- Clean Transparent Header Title (Animates Once & Stays Static with repeat=false) -->
+  <!-- Waving Hand Accent + Clean Header Title -->
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/waving_hand.svg" width="45" height="45" alt="Waving Hand" /></a>
+  <br />
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=36&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=750&amp;height=65&amp;repeat=false&amp;lines=Vishvjeet+Singh+Tanwar" alt="Vishvjeet Singh Tanwar Header" /></a>
 
   <!-- Dynamic Subtitle -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;pause=1000&amp;color=7EE787&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Builder+and+Designer;Full+Stack+Developer+-+MERN;Blockchain+Builder" alt="Subtitles" /></a>
 
-  <br />
+  <br /><br />
+
+  <!-- Live Animated Status Bar -->
+  <img src="assets/status_bar.svg" width="100%" alt="Live Animated Status Bar" />
+
+  <br /><br />
 
   <!-- GitHub & Social Badges -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/followers/vishvjeettanwar1623?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=58a6ff" alt="Followers Badge" /></a>
@@ -68,9 +75,8 @@
 ### 🏆 GitHub Achievements & Badges
 
 <div align="center">
-  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" /></a>
-  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="96" height="96" alt="Quickdraw Achievement Badge" /></a>
-  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="96" height="96" alt="Pull Shark Achievement Badge" /></a>
+  <!-- Halo Ring Animated Achievement Badges -->
+  <img src="assets/achievements_animated.svg" width="70%" alt="Animated GitHub Achievements" />
 </div>
 
 ---
@@ -90,7 +96,7 @@
 ### 📊 Real-Time Metrics & Activity
 
 <div align="center">
-  <!-- GitHub Streak Badge (100% Reliable & Live) -->
+  <!-- GitHub Streak Badge -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" /></a>
 
   <br /><br />

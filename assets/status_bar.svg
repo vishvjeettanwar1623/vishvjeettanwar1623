@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 42" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&amp;display=swap');
+
+      .bg {
+        fill: #0d1117;
+        stroke: #30363d;
+        stroke-width: 1;
+        rx: 8px;
+      }
+
+      .pulse-dot {
+        fill: #39d353;
+        animation: pulseGreen 2s ease-in-out infinite;
+      }
+
+      .pulse-ring {
+        stroke: #39d353;
+        stroke-width: 1.5;
+        fill: none;
+        animation: ringExpand 2s ease-in-out infinite;
+      }
+
+      .status-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #c9d1d9;
+      }
+
+      .highlight {
+        fill: #58a6ff;
+        font-weight: 700;
+      }
+
+      @keyframes pulseGreen {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.85); }
+      }
+
+      @keyframes ringExpand {
+        0% { transform: scale(0.8); opacity: 0.8; }
+        100% { transform: scale(1.6); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect class="bg" width="750" height="42" x="0" y="0" />
+
+  <!-- Animated Green Pulsing Dot -->
+  <g transform="translate(30, 21)">
+    <circle class="pulse-ring" r="6" />
+    <circle class="pulse-dot" r="5" />
+  </g>
+
+  <!-- Status Text -->
+  <text x="50" y="26" class="status-text">
+    <tspan fill="#39d353" font-weight="700">ONLINE</tspan>
+    <tspan fill="#8b949e"> | </tspan>
+    <tspan fill="#8b949e">STATUS: </tspan>
+    <tspan class="highlight">Building Full-Stack MERN &amp; Blockchain Systems</tspan>
+  </text>
+</svg>
