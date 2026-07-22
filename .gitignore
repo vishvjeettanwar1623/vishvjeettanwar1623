@@ -4,3 +4,6 @@
 # Except README.md
 !README.md
 !readme.md
+
+# Ignore agents directory
+.agents/

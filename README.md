@@ -9,7 +9,7 @@
 
   <br /><br />
 
-  <!-- Social & Contact Badges (Opening in New Tab) -->
+  <!-- Social & Contact Badges -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Badge" />
   </a>
@@ -117,7 +117,7 @@
 ### 📊 GitHub Contribution Matrix & Real-Time Metrics
 
 <div align="center">
-  <!-- Exact Real GitHub Profile Contribution Graph with 10-Second Looping Diagonal Animation (No blue beam) -->
+  <!-- Exact Real GitHub Profile Contribution Graph with 10-Second Looping Diagonal Animation -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
     <img src="assets/contribution_graph_animated.svg" width="100%" alt="GitHub Contribution Matrix for Vishvjeet Singh Tanwar" />
   </a>
@@ -129,12 +129,4 @@
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="49%" alt="GitHub Streak Stats" />
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vishvjeettanwar1623&amp;theme=2077" width="49%" alt="Repos Per Language" />
   </a>
-</div>
-
----
-
-<div align="center">
-  <img src="https://quotes-github-readme-api.vercel.app/api?type=horizontal&amp;theme=dark" alt="Daily Tech Quote" />
-  <br /><br />
-  <sub>⚡ Designed &amp; Crafted by <b>Vishvjeet Singh Tanwar</b></sub>
 </div>

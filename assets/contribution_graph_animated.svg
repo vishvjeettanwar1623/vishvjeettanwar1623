@@ -19,7 +19,7 @@
         letter-spacing: 2px;
       }
 
-      /* 10-Second Looping Animation: Diagonal sweep in first 2.5s, solid hold until 9.2s, reset */
+      /* 10-Second Looping Animation: Diagonal sweep in first 2.5s, solid hold until 9s, reset */
       .cell {
         opacity: 0;
         transform: scale(0.6);
