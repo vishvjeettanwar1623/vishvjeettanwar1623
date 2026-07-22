@@ -11,7 +11,7 @@
 
   <br />
 
-  <!-- GitHub & Social Badges -->
+  <!-- GitHub & Social Links -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/github/followers/vishvjeettanwar1623?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=58a6ff" alt="Followers Badge" />
   </a>
@@ -58,8 +58,38 @@
 ### 🛠️ Tech Stack & Skills
 
 <div align="center">
-  <!-- Animated Tech Stack SVG with Floating Pulse Effects -->
-  <img src="assets/tech_stack_animated.svg" width="100%" alt="Animated Tech Stack &amp; Skills Grid" />
+  <!-- SkillIcons Grid with Subtle Floating Animation -->
+  <img src="assets/skills_animated.svg" width="100%" alt="Tech Stack Icons Grid" />
+</div>
+
+---
+
+### 🏆 GitHub Badges & Achievements
+
+<div align="center">
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Pull%20Shark-7ee787?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Pull Shark Badge" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Pair%20Extraordinaire-58a6ff?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Pair Extraordinaire Badge" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Quickdraw-a371f7?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Quickdraw Badge" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Developer%20Program%20Member-f78166?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Developer Program Badge" />
+  </a>
+
+  <br /><br />
+
+  <!-- GitHub Profile Cards -->
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vishvjeettanwar1623&amp;theme=2077" width="49%" alt="GitHub Profile Details Badge" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vishvjeettanwar1623&amp;theme=2077" width="49%" alt="Repos Per Language Badge" />
+  </a>
 </div>
 
 ---
@@ -76,7 +106,7 @@
 
 ---
 
-### 📊 GitHub Metrics & Activity
+### 📊 Real-Time Metrics & Activity
 
 <div align="center">
   <!-- GitHub Streak Badge -->
