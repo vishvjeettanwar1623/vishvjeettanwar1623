@@ -68,19 +68,15 @@
 
 <div align="center">
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.githubassets.com/assets/yolo-default-2362309e57b8.png" width="96" height="96" alt="YOLO Achievement Badge" />
+    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6e4fd8d7a.png" width="96" height="96" alt="Quickdraw Achievement Badge" />
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="96" height="96" alt="Quickdraw Achievement Badge" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
     <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="96" height="96" alt="Pull Shark Achievement Badge" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-e77638ad5c80.png" width="96" height="96" alt="Pair Extraordinaire Achievement Badge" />
   </a>
 </div>
 
