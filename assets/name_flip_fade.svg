@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 70" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700;800&amp;display=swap');
+
+      .text-container {
+        perspective: 1000px;
+      }
+
+      .flip-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 34px;
+        font-weight: 800;
+        fill: #58a6ff;
+        text-anchor: middle;
+        transform-origin: center center;
+        opacity: 0;
+        animation: flipFadeLoop 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      .word-1 { animation-delay: 0s; fill: #58a6ff; }
+      .word-2 { animation-delay: 3s; fill: #7ee787; }
+      .word-3 { animation-delay: 6s; fill: #a371f7; }
+      .word-4 { animation-delay: 9s; fill: #58a6ff; }
+
+      @keyframes flipFadeLoop {
+        0% {
+          opacity: 0;
+          transform: translateY(-20px) rotateX(-90deg);
+        }
+        5%, 22% {
+          opacity: 1;
+          transform: translateY(0px) rotateX(0deg);
+        }
+        27%, 100% {
+          opacity: 0;
+          transform: translateY(20px) rotateX(90deg);
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="70" fill="transparent" />
+
+  <g transform="translate(400, 48)">
+    <text class="flip-text word-1">Vishvjeet Singh Tanwar</text>
+    <text class="flip-text word-2">Builder &amp; Designer</text>
+    <text class="flip-text word-3">Full Stack Developer - MERN</text>
+    <text class="flip-text word-4">Blockchain Builder</text>
+  </g>
+</svg>
