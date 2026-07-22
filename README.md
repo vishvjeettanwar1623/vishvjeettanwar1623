@@ -1,6 +1,6 @@
 <div align="center">
-  <!-- Clean Transparent Header Title -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=36&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=750&amp;height=65&amp;lines=Vishvjeet+Singh+Tanwar" alt="Vishvjeet Singh Tanwar Header" /></a>
+  <!-- Clean Transparent Header Title (Animates Once & Stays Static with repeat=false) -->
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=36&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=750&amp;height=65&amp;repeat=false&amp;lines=Vishvjeet+Singh+Tanwar" alt="Vishvjeet Singh Tanwar Header" /></a>
 
   <!-- Dynamic Subtitle -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;pause=1000&amp;color=7EE787&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Builder+and+Designer;Full+Stack+Developer+-+MERN;Blockchain+Builder" alt="Subtitles" /></a>
@@ -90,13 +90,7 @@
 ### 📊 Real-Time Metrics & Activity
 
 <div align="center">
-  <!-- GitHub Overall Stats & Top Languages Side-by-Side Cards -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-stats.vercel.app/api?username=vishvjeettanwar1623&amp;show_icons=true&amp;theme=dark&amp;bg_color=0d1117&amp;border_color=30363d&amp;title_color=58a6ff&amp;text_color=c9d1d9&amp;icon_color=58a6ff" width="49%" alt="GitHub Overall Stats" /></a>
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishvjeettanwar1623&amp;layout=compact&amp;theme=dark&amp;bg_color=0d1117&amp;border_color=30363d&amp;title_color=58a6ff&amp;text_color=c9d1d9" width="49%" alt="Top Languages Breakdown" /></a>
-
-  <br /><br />
-
-  <!-- GitHub Streak Badge -->
+  <!-- GitHub Streak Badge (100% Reliable & Live) -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" /></a>
 
   <br /><br />
