@@ -11,7 +11,7 @@
 
   <br />
 
-  <!-- GitHub & Social Links -->
+  <!-- GitHub & Social Badges -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/github/followers/vishvjeettanwar1623?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=58a6ff" alt="Followers Badge" />
   </a>
@@ -58,8 +58,8 @@
 ### 🛠️ Tech Stack & Skills
 
 <div align="center">
-  <!-- SkillIcons Grid with Subtle Floating Animation -->
-  <img src="assets/skills_animated.svg" width="100%" alt="Tech Stack Icons Grid" />
+  <!-- SkillIcons Grid (Direct & 100% Reliable Render) -->
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,mongodb,py,solidity,html,css,tailwind,postgres,redis,docker,git,github,vscode,linux&amp;perline=10" width="100%" alt="Tech Stack Icons Grid" />
 </div>
 
 ---
@@ -81,14 +81,6 @@
   &nbsp;
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-Developer%20Program%20Member-f78166?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Developer Program Badge" />
-  </a>
-
-  <br /><br />
-
-  <!-- GitHub Profile Cards -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vishvjeettanwar1623&amp;theme=2077" width="49%" alt="GitHub Profile Details Badge" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vishvjeettanwar1623&amp;theme=2077" width="49%" alt="Repos Per Language Badge" />
   </a>
 </div>
 
