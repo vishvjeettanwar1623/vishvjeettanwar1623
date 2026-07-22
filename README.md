@@ -58,7 +58,8 @@
 ### 🛠️ Tech Stack & Skills
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,mongodb,py,solidity,html,css,tailwind,postgres,redis,docker,git,github,vscode,linux&amp;perline=10" alt="Skills Grid" />
+  <!-- Animated Tech Stack SVG with Floating Pulse Effects -->
+  <img src="assets/tech_stack_animated.svg" width="100%" alt="Animated Tech Stack &amp; Skills Grid" />
 </div>
 
 ---
@@ -75,16 +76,18 @@
 
 ---
 
+### 📊 GitHub Metrics & Activity
+
 <div align="center">
-  <!-- Exact Real GitHub Profile Contribution Matrix with 10-Second Looping Diagonal Animation -->
+  <!-- GitHub Streak Badge -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="assets/contribution_graph_animated.svg" width="100%" alt="Contribution Matrix" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" />
   </a>
 
   <br /><br />
 
-  <!-- GitHub Streak Badge -->
+  <!-- Animated GitHub Contribution Matrix (Clean SVG, No Text Header) -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" />
+    <img src="assets/contribution_graph_animated.svg" width="100%" alt="Contribution Matrix" />
   </a>
 </div>

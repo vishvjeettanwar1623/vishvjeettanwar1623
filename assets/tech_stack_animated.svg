@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&amp;display=swap');
+
+      .bg { fill: #0d1117; }
+
+      .tech-card {
+        stroke: #30363d;
+        stroke-width: 1.5;
+        fill: #161b22;
+        rx: 8;
+        transition: all 0.3s ease;
+      }
+
+      .tech-label {
+        font-family: 'JetBrains Mono', 'DM Mono', monospace;
+        font-size: 11px;
+        font-weight: 500;
+        fill: #e6edf3;
+        text-anchor: middle;
+      }
+
+      .icon-svg {
+        fill: #58a6ff;
+      }
+
+      /* Simple Staggered Floating / Pulse Animation */
+      .anim-1 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 0.0s; }
+      .anim-2 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 0.2s; }
+      .anim-3 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 0.4s; }
+      .anim-4 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 0.6s; }
+      .anim-5 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 0.8s; }
+      .anim-6 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 1.0s; }
+      .anim-7 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 1.2s; }
+      .anim-8 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 1.4s; }
+      .anim-9 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 1.6s; }
+      .anim-10 { animation: floatPulse 4s ease-in-out infinite; animation-delay: 1.8s; }
+
+      @keyframes floatPulse {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-5px);
+          stroke: #58a6ff;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="800" height="210" rx="10" stroke="#30363d" stroke-width="1" />
+
+  <!-- ROW 1 -->
+  <!-- 1. TypeScript -->
+  <g class="anim-1" transform="translate(35, 25)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#58a6ff">TS</tspan> TypeScript</text>
+  </g>
+
+  <!-- 2. JavaScript -->
+  <g class="anim-2" transform="translate(180, 25)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#f78166">JS</tspan> JavaScript</text>
+  </g>
+
+  <!-- 3. React -->
+  <g class="anim-3" transform="translate(325, 25)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#58a6ff">⚛</tspan> React.js</text>
+  </g>
+
+  <!-- 4. Next.js -->
+  <g class="anim-4" transform="translate(470, 25)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#e6edf3">▲</tspan> Next.js</text>
+  </g>
+
+  <!-- 5. Node.js -->
+  <g class="anim-5" transform="translate(615, 25)">
+    <rect class="tech-card" width="150" height="42" />
+    <text x="75" y="26" class="tech-label"><tspan fill="#7ee787">⬢</tspan> Node.js</text>
+  </g>
+
+  <!-- ROW 2 -->
+  <!-- 6. Express -->
+  <g class="anim-6" transform="translate(35, 80)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#a371f7">⚡</tspan> Express</text>
+  </g>
+
+  <!-- 7. MongoDB -->
+  <g class="anim-7" transform="translate(180, 80)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#7ee787">🍃</tspan> MongoDB</text>
+  </g>
+
+  <!-- 8. Python -->
+  <g class="anim-8" transform="translate(325, 80)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#58a6ff">🐍</tspan> Python</text>
+  </g>
+
+  <!-- 9. Solidity -->
+  <g class="anim-9" transform="translate(470, 80)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#a371f7">⧫</tspan> Solidity</text>
+  </g>
+
+  <!-- 10. Tailwind -->
+  <g class="anim-10" transform="translate(615, 80)">
+    <rect class="tech-card" width="150" height="42" />
+    <text x="75" y="26" class="tech-label"><tspan fill="#58a6ff">🎨</tspan> Tailwind CSS</text>
+  </g>
+
+  <!-- ROW 3 -->
+  <!-- 11. PostgreSQL -->
+  <g class="anim-2" transform="translate(35, 135)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#58a6ff">🐘</tspan> PostgreSQL</text>
+  </g>
+
+  <!-- 12. Redis -->
+  <g class="anim-3" transform="translate(180, 135)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#f78166">🔴</tspan> Redis</text>
+  </g>
+
+  <!-- 13. Docker -->
+  <g class="anim-4" transform="translate(325, 135)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#58a6ff">🐳</tspan> Docker</text>
+  </g>
+
+  <!-- 14. Git & GitHub -->
+  <g class="anim-5" transform="translate(470, 135)">
+    <rect class="tech-card" width="130" height="42" />
+    <text x="65" y="26" class="tech-label"><tspan fill="#f78166">🐙</tspan> Git / GitHub</text>
+  </g>
+
+  <!-- 15. Linux -->
+  <g class="anim-6" transform="translate(615, 135)">
+    <rect class="tech-card" width="150" height="42" />
+    <text x="75" y="26" class="tech-label"><tspan fill="#7ee787">🐧</tspan> Linux CLI</text>
+  </g>
+</svg>
