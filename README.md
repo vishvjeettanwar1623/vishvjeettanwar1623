@@ -15,7 +15,8 @@
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 <img src="https://api.iconify.design/ion:laptop-outline.svg?color=%2358a6ff" width="24" height="24" align="center" />
+About Me
 
 ```zsh
 ⚡ vishvjeet@dev:~$ cat profile.json
