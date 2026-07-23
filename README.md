@@ -43,7 +43,7 @@
 ⚡ vishvjeet@dev:~$ neofetch --dev-setup
 ================================================================================
   OS        : Windows / Linux 
-  EDITOR    : VS Code (Tokyo Night + JetBrains Mono)
+  EDITOR    : VS Code / Antigravity
   TERMINAL  : Windows Terminal / ZSH
   TOOLING   : Node.js (pnpm/bun), Git, Docker, Python
   WEB3      : Solidity, Hardhat, Ethers.js, Anvil
