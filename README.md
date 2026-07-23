@@ -1,9 +1,9 @@
 <div align="center">
   <!-- Clean Transparent Header Title (Animates Once & Stays Static) -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=36&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=750&amp;height=65&amp;repeat=false&amp;lines=Vishvjeet+Singh+Tanwar" alt="Vishvjeet Singh Tanwar Header" /></a>
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=36&amp;pause=1000&amp;color=FFFFFF&amp;center=true&amp;vCenter=true&amp;width=750&amp;height=65&amp;repeat=false&amp;lines=Vishvjeet+Singh+Tanwar" alt="Vishvjeet Singh Tanwar Header" /></a>
 
   <!-- Dynamic Subtitle -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;pause=1000&amp;color=7EE787&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Builder+and+Designer;Full+Stack+Developer+-+MERN;Blockchain+Builder" alt="Subtitles" /></a>
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=18&amp;pause=1000&amp;color=F5F5F0&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Builder+and+Designer;Full+Stack+Developer+-+MERN;Blockchain+Builder" alt="Subtitles" /></a>
 
   <br /><br />
 
