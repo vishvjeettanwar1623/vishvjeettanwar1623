@@ -56,7 +56,7 @@
 
 ---
 
-### 🛠️ Categorized Tech Stack & Skills
+### <> Tech Stack & Skills </>
 
 <br />
 
@@ -71,7 +71,7 @@
 <br />
 
 #### ⚙️ Backend, Databases & APIs
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,redis" alt="Backend & Databases" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend & Databases" />
 
 <br />
 
@@ -80,7 +80,7 @@
 
 ---
 
-### 🏆 GitHub Achievements & Badges
+### 🏆 Badges
 
 <div align="center">
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" /></a>
@@ -116,7 +116,7 @@
 
 ---
 
-### 🤝 Connect & Collaborate
+###  Connect 
 
 <div align="center">
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
