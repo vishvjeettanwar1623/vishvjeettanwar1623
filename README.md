@@ -91,7 +91,7 @@
 
 ---
 
-### 📊 Real-Time Metrics & Activity
+### <img src="https://api.iconify.design/ion:analytics-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Real-Time Metrics & Activity
 
 <div align="center">
   <!-- GitHub Streak Badge -->
@@ -100,7 +100,7 @@
 
 ---
 
-###  Connect 
+### <img src="https://api.iconify.design/ion:bag-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Connect
 
 <div align="center">
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
