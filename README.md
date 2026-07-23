@@ -96,11 +96,6 @@
 <div align="center">
   <!-- GitHub Streak Badge -->
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" /></a>
-
-  <br /><br />
-
-  <!-- Top Languages Breakdown -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishvjeettanwar1623&amp;layout=compact&amp;theme=dark&amp;bg_color=0d1117&amp;border_color=30363d&amp;title_color=ffffff&amp;text_color=c9d1d9" width="100%" alt="Top Languages Breakdown" /></a>
 </div>
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
