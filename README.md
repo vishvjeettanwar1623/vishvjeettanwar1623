@@ -37,7 +37,7 @@
 
 ---
 
-### 💻 Dev Setup & Environment
+### <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Dev Setup & Environment
 
 ```zsh
 ⚡ vishvjeet@dev:~$ neofetch --dev-setup
