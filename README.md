@@ -53,7 +53,7 @@
 
 ---
 
-### <> Tech Stack & Skills </>
+### <img src="https://api.iconify.design/ion:code-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Tech Stack & Skills <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" />
 
 #### 🌐 Core Languages
 <img src="https://skillicons.dev/icons?i=ts,js,py,solidity,html,css" alt="Core Languages" />
