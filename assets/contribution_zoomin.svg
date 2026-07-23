@@ -6,7 +6,6 @@
       .bg { fill: #0d1117; }
       .label-text { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #8b949e; }
 
-      /* animate__zoomIn Keyframe Animation */
       .zoom-cell {
         opacity: 0;
         transform-box: fill-box;
@@ -313,6 +312,7 @@
   <rect class="zoom-cell" style="fill:#161b22; animation-delay: 1.39s;" data-date="2026-07-02" data-score="0" x="635" y="73" width="10" height="10" rx="2" />
   <rect class="zoom-cell" style="fill:#0e4429; animation-delay: 1.41s;" data-date="2026-07-09" data-score="1" x="647" y="73" width="10" height="10" rx="2" />
   <rect class="zoom-cell" style="fill:#006d32; animation-delay: 1.44s;" data-date="2026-07-16" data-score="2" x="659" y="73" width="10" height="10" rx="2" />
+  <rect class="zoom-cell" style="fill:#0e4429; animation-delay: 1.46s;" data-date="2026-07-23" data-score="1" x="671" y="73" width="10" height="10" rx="2" />
   <rect class="zoom-cell" style="fill:#161b22; animation-delay: 0.20s;" data-date="2025-07-25" data-score="0" x="47" y="85" width="10" height="10" rx="2" />
   <rect class="zoom-cell" style="fill:#161b22; animation-delay: 0.23s;" data-date="2025-08-01" data-score="0" x="59" y="85" width="10" height="10" rx="2" />
   <rect class="zoom-cell" style="fill:#161b22; animation-delay: 0.25s;" data-date="2025-08-08" data-score="0" x="71" y="85" width="10" height="10" rx="2" />

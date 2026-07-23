@@ -42,7 +42,7 @@
 ```zsh
 ⚡ vishvjeet@dev:~$ neofetch --dev-setup
 ================================================================================
-  OS        : Windows / Linux ZSH
+  OS        : Windows / Linux 
   EDITOR    : VS Code (Tokyo Night + JetBrains Mono)
   TERMINAL  : Windows Terminal / ZSH
   TOOLING   : Node.js (pnpm/bun), Git, Docker, Python
