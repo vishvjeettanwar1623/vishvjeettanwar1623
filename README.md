@@ -13,10 +13,11 @@
 
 <br />
 
-<hr style="border: 0; height: 1px; background: #30363d;" />
-
-### <img src="https://api.iconify.design/ion:laptop-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> About Me
-
+<!-- Section Card: About Me -->
+<table width="100%">
+  <tr>
+    <td>
+      <h3><img src="https://api.iconify.design/ion:laptop-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> About Me</h3>
 ```zsh
 ⚡ vishvjeet@dev:~$ cat profile.json
 {
@@ -34,11 +35,17 @@
   "email": "sbvj727@gmail.com"
 }
 ```
+    </td>
+  </tr>
+</table>
 
-<hr style="border: 0; height: 1px; background: #30363d;" />
+<br />
 
-### <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Dev Setup & Environment
-
+<!-- Section Card: Dev Setup & Environment -->
+<table width="100%">
+  <tr>
+    <td>
+      <h3><img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Dev Setup & Environment</h3>
 ```zsh
 ⚡ vishvjeet@dev:~$ neofetch --dev-setup
 {
@@ -50,36 +57,54 @@
   DEPLOY    : Vercel, Netlify, Docker Containers;
 }
 ```
+    </td>
+  </tr>
+</table>
 
-<hr style="border: 0; height: 1px; background: #30363d;" />
+<br />
 
-### <img src="https://api.iconify.design/ion:code-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Tech Stack & Skills <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" />
+<!-- Section Card: Tech Stack & Skills -->
+<table width="100%">
+  <tr>
+    <td>
+      <h3><img src="https://api.iconify.design/ion:code-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Tech Stack & Skills</h3>
 
-#### 🌐 Core Languages
-<img src="https://skillicons.dev/icons?i=ts,js,py,solidity,html,css" alt="Core Languages" />
+      <h4>🌐 Core Languages</h4>
+      <img src="https://skillicons.dev/icons?i=ts,js,py,solidity,html,css" alt="Core Languages" />
 
-#### ⚛️ Frontend & UI Frameworks
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="Frontend Frameworks" />
+      <h4>⚛️ Frontend & UI Frameworks</h4>
+      <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="Frontend Frameworks" />
 
-#### ⚙️ Backend, Databases & APIs
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend & Databases" />
+      <h4>⚙️ Backend, Databases & APIs</h4>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend & Databases" />
 
-#### 🛠️ DevOps, Systems & Developer Tools
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="DevOps & Tools" />
+      <h4>🛠️ DevOps, Systems & Developer Tools</h4>
+      <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="DevOps & Tools" />
+    </td>
+  </tr>
+</table>
 
-<hr style="border: 0; height: 1px; background: #30363d;" />
+<br />
 
-### <img src="https://api.iconify.design/ion:trophy-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Badges
+<!-- Section Card: Badges -->
+<table width="100%">
+  <tr>
+    <td align="center">
+      <h3><img src="https://api.iconify.design/ion:trophy-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Badges</h3>
+      <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" /></a>
+      <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="96" height="96" alt="Quickdraw Achievement Badge" /></a>
+      <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="96" height="96" alt="Pull Shark Achievement Badge" /></a>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" /></a>
-  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="96" height="96" alt="Quickdraw Achievement Badge" /></a>
-  <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="96" height="96" alt="Pull Shark Achievement Badge" /></a>
-</div>
+<br />
 
-<hr style="border: 0; height: 1px; background: #30363d;" />
-
-### <img src="https://api.iconify.design/ion:bookmark-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Featured Repositories
+<!-- Section Card: Featured Repositories -->
+<table width="100%">
+  <tr>
+    <td>
+      <h3><img src="https://api.iconify.design/ion:bookmark-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Featured Repositories</h3>
 
 | Repository | Stack | Description |
 | :--- | :---: | :--- |
@@ -88,22 +113,32 @@
 | [**`EgoArena`**](https://github.com/vishvjeettanwar1623/egoArena) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> | A 10-question quiz that turns your personality into a Character Card, then throws it into AI-simulated 1v1 battles on an Elo leaderboard. |
 | [**`Hexecute`**](https://github.com/vishvjeettanwar1623/hexecute) | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> | Stake tokens, solve a live coding challenge, get AI-graded, and let your fighter settle the score on-chain. |
 | [**`Data-Roots`**](https://github.com/vishvjeettanwar1623/Data-Roots) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&amp;logo=ipfs&amp;logoColor=white" alt="IPFS" /> | Decentralized data sharing on the blockchain — upload to IPFS, register on-chain, and grant or revoke access with fine-grained control. |
+    </td>
+  </tr>
+</table>
 
-<hr style="border: 0; height: 1px; background: #30363d;" />
+<br />
 
-### <img src="https://api.iconify.design/ion:analytics-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Real-Time Metrics & Activity
+<!-- Section Card: Real-Time Metrics & Activity -->
+<table width="100%">
+  <tr>
+    <td align="center">
+      <h3><img src="https://api.iconify.design/ion:analytics-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Real-Time Metrics & Activity</h3>
+      <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" /></a>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <!-- GitHub Streak Badge -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Badge" /></a>
-</div>
+<br />
 
-<hr style="border: 0; height: 1px; background: #30363d;" />
-
-### <img src="https://api.iconify.design/ion:bag-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Connect
-
-<div align="center">
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/vishvjeettanwar" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:sbvj727@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
-</div>
+<!-- Section Card: Connect -->
+<table width="100%">
+  <tr>
+    <td align="center">
+      <h3><img src="https://api.iconify.design/ion:bag-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Connect</h3>
+      <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
+      <a href="https://www.linkedin.com/in/vishvjeettanwar" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+      <a href="mailto:sbvj727@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+    </td>
+  </tr>
+</table>
