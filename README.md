@@ -37,7 +37,7 @@
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
-### <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Dev Setup & Environment
+<img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Dev Setup & Environment
 
 ```zsh
 ⚡ vishvjeet@dev:~$ neofetch --dev-setup
@@ -53,23 +53,23 @@
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
-### <img src="https://api.iconify.design/ion:code-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Tech Stack & Skills <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" />
+<img src="https://api.iconify.design/ion:code-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Tech Stack & Skills <img src="https://api.iconify.design/ion:code-slash-outline.svg?color=%23ffffff" width="24" height="24" align="center" />
 
-#### 🌐 Core Languages
+🌐 Core Languages
 <img src="https://skillicons.dev/icons?i=ts,js,py,solidity,html,css" alt="Core Languages" />
 
-#### ⚛️ Frontend & UI Frameworks
+⚛️ Frontend & UI Frameworks
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="Frontend Frameworks" />
 
-#### ⚙️ Backend, Databases & APIs
+⚙️ Backend, Databases & APIs
 <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend & Databases" />
 
-#### 🛠️ DevOps, Systems & Developer Tools
+🛠️ DevOps, Systems & Developer Tools
 <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="DevOps & Tools" />
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
-### <img src="https://api.iconify.design/ion:trophy-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Badges
+<img src="https://api.iconify.design/ion:trophy-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Badges
 
 <div align="center">
   <a href="https://github.com/vishvjeettanwar1623?tab=achievements" target="_blank" rel="noopener noreferrer"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="96" height="96" alt="YOLO Achievement Badge" /></a>
@@ -79,7 +79,7 @@
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
-### <img src="https://api.iconify.design/ion:bookmark-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Featured Repositories
+<img src="https://api.iconify.design/ion:bookmark-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Featured Repositories
 
 | Repository | Stack | Description |
 | :--- | :---: | :--- |
@@ -91,7 +91,7 @@
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
-### <img src="https://api.iconify.design/ion:analytics-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Real-Time Metrics & Activity
+<img src="https://api.iconify.design/ion:analytics-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Real-Time Metrics & Activity
 
 <div align="center">
   <!-- GitHub Streak Badge -->
@@ -100,7 +100,7 @@
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
-### <img src="https://api.iconify.design/ion:bag-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Connect
+<img src="https://api.iconify.design/ion:bag-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Connect
 
 <div align="center">
   <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
