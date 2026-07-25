@@ -15,7 +15,7 @@
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
-### <img src="https://api.iconify.design/ion:laptop-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> About Me
+<img src="https://api.iconify.design/ion:laptop-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> About Me
 
 ```zsh
 ⚡ vishvjeet@dev:~$ cat profile.json
