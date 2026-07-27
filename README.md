@@ -58,13 +58,13 @@
 🌐 Core Languages <br>
 <img src="https://skillicons.dev/icons?i=ts,js,py,solidity,html,css" alt="Core Languages" />
 
-⚛️ Frontend & UI Frameworks
+⚛️ Frontend & UI Frameworks <br>
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="Frontend Frameworks" />
 
-⚙️ Backend, Databases & APIs
+⚙️ Backend, Databases & APIs <br>
 <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend & Databases" />
 
-🛠️ DevOps, Systems & Developer Tools
+🛠️ DevOps, Systems & Developer Tools <br>
 <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="DevOps & Tools" />
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
