@@ -91,6 +91,15 @@
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
+<img src="https://api.iconify.design/ion:analytics-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Real-Time Metrics & Activity
+
+<div align="center">
+  <!-- Self-Hosted Streak Stats SVG (100% Bulletproof, Zero Rate Limits) -->
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/streak_card.svg?v=20260728" width="100%" alt="GitHub Streak Stats" /></a>
+</div>
+
+<hr style="border: 0; height: 1px; background: #30363d;" />
+
 <img src="https://api.iconify.design/ion:bag-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Connect
 
 <div align="center">
