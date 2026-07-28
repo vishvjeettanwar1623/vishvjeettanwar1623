@@ -83,20 +83,11 @@
 
 | Repository | Stack | Description |
 | :--- | :---: | :--- |
-| [**`LagLine`**](https://github.com/vishvjeettanwar1623/lagline) | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> | A desktop dashboard that scans your local repos and shows their sync status against remote at a glance. |
-| [**`Vaxis`**](https://github.com/vishvjeettanwar1623/vaxis) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> | A local-first dev memory engine that indexes your codebase into a semantic graph in an Obsidian vault, giving AI tools persistent project context via MCP. |
-| [**`EgoArena`**](https://github.com/vishvjeettanwar1623/egoArena) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> | A 10-question quiz that turns your personality into a Character Card, then throws it into AI-simulated 1v1 battles on an Elo leaderboard. |
-| [**`Hexecute`**](https://github.com/vishvjeettanwar1623/hexecute) | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> | Stake tokens, solve a live coding challenge, get AI-graded, and let your fighter settle the score on-chain. |
-| [**`Data-Roots`**](https://github.com/vishvjeettanwar1623/Data-Roots) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&amp;logo=ipfs&amp;logoColor=white" alt="IPFS" /> | Decentralized data sharing on the blockchain — upload to IPFS, register on-chain, and grant or revoke access with fine-grained control. |
-
-<hr style="border: 0; height: 1px; background: #30363d;" />
-
-<img src="https://api.iconify.design/ion:analytics-outline.svg?color=%23ffffff" width="24" height="24" align="center" /> Real-Time Metrics & Activity
-
-<div align="center">
-  <!-- GitHub Streak Badge (Official Demolab Server) -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="https://streak-stats.demolab.com/?user=vishvjeettanwar1623&amp;theme=dark&amp;background=0d1117&amp;border=30363d&amp;stroke=58a6ff&amp;ring=58a6ff&amp;fire=f78166" width="100%" alt="GitHub Streak Stats" /></a>
-</div>
+| [**LagLine**](https://github.com/vishvjeettanwar1623/lagline) | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> | A desktop dashboard that scans your local repos and shows their sync status against remote at a glance. |
+| [**Vaxis**](https://github.com/vishvjeettanwar1623/vaxis) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> | A local-first dev memory engine that indexes your codebase into a semantic graph in an Obsidian vault, giving AI tools persistent project context via MCP. |
+| [**EgoArena**](https://github.com/vishvjeettanwar1623/egoArena) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> | A 10-question quiz that turns your personality into a Character Card, then throws it into AI-simulated 1v1 battles on an Elo leaderboard. |
+| [**Hexecute**](https://github.com/vishvjeettanwar1623/hexecute) | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" /> | Stake tokens, solve a live coding challenge, get AI-graded, and let your fighter settle the score on-chain. |
+| [**Data-Roots**](https://github.com/vishvjeettanwar1623/Data-Roots) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&amp;logo=ipfs&amp;logoColor=white" alt="IPFS" /> | Decentralized data sharing on the blockchain — upload to IPFS, register on-chain, and grant or revoke access with fine-grained control. |
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
 
