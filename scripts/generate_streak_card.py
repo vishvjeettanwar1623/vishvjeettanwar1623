@@ -84,13 +84,10 @@ def generate_minimal_streak_card():
       .lbl-sub {{ font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 12px; fill: #8b949e; text-anchor: middle; }}
       
       .divider {{ stroke: #30363d; stroke-width: 1px; }}
-
-      .track-ring {{ fill: #161b22; stroke: #30363d; stroke-width: 3px; }}
-      .progress-ring {{ fill: none; stroke: #f78166; stroke-width: 3.5px; stroke-dasharray: 105 30; stroke-linecap: round; transform: rotate(-90deg); transform-origin: 360px 48px; }}
     </style>
   </defs>
 
-  <!-- Clean Flat Background -->
+  <!-- Background -->
   <rect class="bg" width="720" height="185" rx="8" />
 
   <!-- Column 1: Total Contributions -->
@@ -103,14 +100,13 @@ def generate_minimal_streak_card():
   <!-- Divider 1 -->
   <line x1="240" y1="28" x2="240" y2="155" class="divider" />
 
-  <!-- Column 2: Current Streak with Custom Dual Ring Progress Dial -->
+  <!-- Column 2: Current Streak with Centered Flame Circle Badge -->
   <g transform="translate(360, 0)">
-    <!-- Base Circle Container & Glowing Progress Ring Arc -->
-    <circle cx="0" cy="48" r="23" class="track-ring" />
-    <circle cx="360" cy="48" r="23" class="progress-ring" />
+    <!-- Circle Badge -->
+    <circle cx="0" cy="46" r="22" fill="#161b22" stroke="#f78166" stroke-width="2px" />
     
-    <!-- Centered Flame Icon -->
-    <path d="M 0,35 C -4,42 -8,46 -5,52 C -3,56 1,58 5,53 C 7,51 7,48 5,46 C 9,49 10,52 8,55 C 6,58 1,60 -2,57 C -6,52 -4,46 0,35 Z" fill="#f78166" />
+    <!-- Flame Icon Centered at (0, 46) -->
+    <path d="M 0,34 C -4,41 -8,45 -5,51 C -3,55 1,57 5,52 C 7,50 7,47 5,45 C 9,48 10,51 8,54 C 6,57 1,59 -2,56 C -6,51 -4,45 0,34 Z" fill="#f78166" />
     
     <text x="0" y="104" class="title-orange">{active_streak} Days</text>
     <text x="0" y="132" class="lbl-main" fill="#f78166">Current Streak</text>
@@ -133,7 +129,7 @@ def generate_minimal_streak_card():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(svg_content)
 
-    print(f"Generated custom ring dial {OUTPUT_PATH}!")
+    print(f"Generated clean centered flat {OUTPUT_PATH}!")
 
 if __name__ == "__main__":
     generate_minimal_streak_card()
