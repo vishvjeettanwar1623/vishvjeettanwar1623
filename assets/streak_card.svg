@@ -12,7 +12,7 @@
       .lbl-sub { font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 12px; fill: #8b949e; text-anchor: middle; }
       
       .divider { stroke: #30363d; stroke-width: 1px; }
-      .ring-orange { fill: none; stroke: #f78166; stroke-width: 2px; }
+      .ring-orange { fill: #161b22; stroke: #f78166; stroke-width: 2px; }
     </style>
   </defs>
 
@@ -31,13 +31,13 @@
 
   <!-- Column 2: Current Streak -->
   <g transform="translate(360, 0)">
-    <!-- Flat Flame Ring -->
-    <circle cx="0" cy="50" r="22" class="ring-orange" />
-    <path d="M 360,37 C 355,43 352,47 355,53 C 357,56 360,57 363,53 C 365,51 365,49 363,47 C 366,50 367,53 365,56 C 363,59 359,60 357,57 C 354,53 356,47 360,37 Z" fill="#f78166" transform="translate(-360, -45)" />
+    <!-- Centered Circle Ring & Flame Icon -->
+    <circle cx="0" cy="46" r="20" class="ring-orange" />
+    <path d="M 0,34 C -4,41 -8,45 -5,51 C -3,55 1,57 5,52 C 7,50 7,47 5,45 C 9,48 10,51 8,54 C 6,57 1,59 -2,56 C -6,51 -4,45 0,34 Z" fill="#f78166" />
     
-    <text x="0" y="98" class="title-orange">10 Days</text>
-    <text x="0" y="126" class="lbl-main" fill="#f78166">Current Streak</text>
-    <text x="0" y="148" class="lbl-sub">Jul 18 - Jul 27</text>
+    <text x="0" y="100" class="title-orange">10 Days</text>
+    <text x="0" y="128" class="lbl-main" fill="#f78166">Current Streak</text>
+    <text x="0" y="150" class="lbl-sub">Jul 18 - Jul 27</text>
   </g>
 
   <!-- Divider 2 -->
