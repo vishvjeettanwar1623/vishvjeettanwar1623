@@ -1,19 +1,20 @@
 import urllib.request
 import re
+import sys
 import os
 from datetime import datetime
 
 USERNAME = "vishvjeettanwar1623"
-OUTPUT_PATH = "assets/streak_card.svg"
 
-def generate_minimal_streak_card():
+def get_streak_svg():
     url = f"https://github.com/users/{USERNAME}/contributions"
     req = urllib.request.Request(
         url, 
         headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
     )
     
-    html_res = urllib.request.urlopen(req).read().decode('utf-8')
+    with urllib.request.urlopen(req) as response:
+        html_res = response.read().decode('utf-8')
 
     header_match = re.search(r'([\d,]+)\s+contributions', html_res, re.IGNORECASE)
     total_contribs = 377
@@ -110,7 +111,7 @@ def generate_minimal_streak_card():
     
     <text x="0" y="104" class="title-orange">{active_streak} Days</text>
     <text x="0" y="132" class="lbl-main" fill="#f78166">Current Streak</text>
-    <text x="0" y="154" class="lbl-sub">{active_str}</text>
+    <text x="0" y="150" class="lbl-sub">{active_str}</text>
   </g>
 
   <!-- Divider 2 -->
@@ -124,12 +125,12 @@ def generate_minimal_streak_card():
   </g>
 </svg>
 '''
-
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        f.write(svg_content)
-
-    print(f"Generated clean centered flat {OUTPUT_PATH}!")
+    return svg_content
 
 if __name__ == "__main__":
-    generate_minimal_streak_card()
+    out_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "streak_card.svg")
+    try:
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(get_streak_svg())
+    except Exception:
+        sys.stdout.write(get_streak_svg())

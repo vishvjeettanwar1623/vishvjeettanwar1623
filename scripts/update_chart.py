@@ -1,42 +1,44 @@
 import urllib.request
 import re
+import sys
 import os
 
 USERNAME = "vishvjeettanwar1623"
-OUTPUT_PATH = "assets/contribution_zoomin.svg"
 
-def generate_chart():
-    url = f"https://ghchart.rshah.org/{USERNAME}"
+def get_chart_svg():
+    url = f"https://github.com/users/{USERNAME}/contributions"
     req = urllib.request.Request(
         url, 
         headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
     )
     
-    html_res = urllib.request.urlopen(req).read().decode('utf-8')
+    with urllib.request.urlopen(req) as response:
+        html_res = response.read().decode('utf-8')
 
-    rect_pattern = re.compile(r'<rect style="fill:(#.*?);[^"]*" data-score="(\d+)" data-date="([^"]+)" x="(\d+)" y="(\d+)" width="(\d+)" height="(\d+)"\/>')
+    rect_pattern = re.compile(r'data-date="([^"]+)"[^>]*data-level="(\d+)"')
     matches = rect_pattern.findall(html_res)
 
     color_map = {
-        "#eeeeee": "#161b22",
-        "#c6e48b": "#0e4429",
-        "#7bc96f": "#006d32",
-        "#239a3b": "#26a641",
-        "#196127": "#39d353"
+        "0": "#161b22",
+        "1": "#0e4429",
+        "2": "#006d32",
+        "3": "#26a641",
+        "4": "#39d353"
     }
 
     cells_svg = []
 
-    for idx, (style_fill, score, date_str, x_str, y_str, w_str, h_str) in enumerate(matches):
-        x = int(x_str) + 20
-        y = int(y_str) + 5
-        col = (int(x_str) - 27) // 12
-        row = (int(y_str) - 20) // 12
+    for idx, (date_str, level_str) in enumerate(matches):
+        col = idx // 7
+        row = idx % 7
         
-        delay = (col * 0.025) + (row * 0.04)
-        dark_fill = color_map.get(style_fill, "#161b22")
+        x = 50 + (col * 12)
+        y = 28 + (row * 12)
+
+        delay = (col * 0.02) + (row * 0.03)
+        dark_fill = color_map.get(level_str, "#161b22")
         
-        cell_element = f'  <rect class="zoom-cell" style="fill:{dark_fill}; animation-delay: {delay:.2f}s;" data-date="{date_str}" data-score="{score}" x="{x}" y="{y}" width="10" height="10" rx="2" />'
+        cell_element = f'  <rect class="zoom-cell" style="fill:{dark_fill}; animation-delay: {delay:.2f}s;" data-date="{date_str}" data-level="{level_str}" x="{x}" y="{y}" width="10" height="10" rx="2" />'
         cells_svg.append(cell_element)
 
     svg_output = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 140" width="100%" height="100%">
@@ -44,7 +46,7 @@ def generate_chart():
     <style>
       @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&amp;display=swap');
       
-      .bg {{ fill: #0d1117; }}
+      .bg {{ fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 8px; }}
       .label-text {{ font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #8b949e; }}
 
       .zoom-cell {{
@@ -71,13 +73,13 @@ def generate_chart():
   </defs>
 
   <!-- Background -->
-  <rect class="bg" width="720" height="140" rx="8" stroke="#30363d" stroke-width="1" />
+  <rect class="bg" width="720" height="140" rx="8" />
 
   <!-- Month Labels -->
-  <g class="label-text" transform="translate(47, 20)">
-    <text x="0">Jul</text><text x="50">Aug</text><text x="100">Sep</text>
-    <text x="150">Oct</text><text x="250">Dec</text><text x="350">Feb</text>
-    <text x="450">Apr</text><text x="550">Jun</text><text x="600">Jul</text>
+  <g class="label-text" transform="translate(50, 20)">
+    <text x="0">Aug</text><text x="50">Sep</text><text x="100">Oct</text>
+    <text x="150">Nov</text><text x="250">Jan</text><text x="350">Mar</text>
+    <text x="450">May</text><text x="550">Jul</text><text x="600">Aug</text>
   </g>
 
   <!-- Weekday Labels -->
@@ -104,12 +106,12 @@ def generate_chart():
   </g>
 </svg>
 '''
-
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        f.write(svg_output)
-
-    print(f"Successfully generated {OUTPUT_PATH} with {len(matches)} contribution cells.")
+    return svg_output
 
 if __name__ == "__main__":
-    generate_chart()
+    out_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "contribution_zoomin.svg")
+    try:
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(get_chart_svg())
+    except Exception:
+        sys.stdout.write(get_chart_svg())
