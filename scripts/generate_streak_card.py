@@ -17,15 +17,28 @@ def get_streak_svg():
         html_res = response.read().decode('utf-8')
 
     header_match = re.search(r'([\d,]+)\s+contributions', html_res, re.IGNORECASE)
-    total_contribs = 377
+    total_contribs = 502
     if header_match:
         total_contribs = int(header_match.group(1).replace(',', ''))
 
-    rect_pattern = re.compile(r'data-date="([^"]+)"[^>]*data-level="(\d+)"')
-    matches = rect_pattern.findall(html_res)
+    tbody_match = re.search(r'<tbody>(.*?)</tbody>', html_res, re.DOTALL)
+    cell_list = []
+    if tbody_match:
+        tbody_html = tbody_match.group(1)
+        rows = re.findall(r'<tr[^>]*>(.*?)</tr>', tbody_html, re.DOTALL)
+        for r_html in rows:
+            cell_matches = re.findall(r'data-date="([^"]+)"[^>]*data-level="(\d+)"', r_html)
+            if not cell_matches:
+                cell_matches = re.findall(r'data-level="(\d+)"[^>]*data-date="([^"]+)"', r_html)
+                cell_matches = [(d, l) for l, d in cell_matches]
+            cell_list.extend(cell_matches)
+    
+    if not cell_list:
+        rect_pattern = re.compile(r'data-date="([^"]+)"[^>]*data-level="(\d+)"')
+        cell_list = rect_pattern.findall(html_res)
 
     contributions = []
-    for date_str, level_str in matches:
+    for date_str, level_str in cell_list:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
         level = int(level_str)
         contributions.append((dt, level))
@@ -57,80 +70,3 @@ def get_streak_svg():
     rev = list(reversed(contributions))
     if rev:
         if rev[0][1] > 0 or (len(rev) > 1 and rev[1][1] > 0):
-            in_streak = False
-            for dt, level in rev:
-                if level > 0:
-                    if not in_streak:
-                        in_streak = True
-                        active_end = dt
-                    active_streak += 1
-                    active_start = dt
-                elif in_streak:
-                    break
-
-    active_str = f"{active_start.strftime('%b %d')} - {active_end.strftime('%b %d')}" if active_start and active_end else "Active"
-    longest_str = f"{longest_start.strftime('%b %d')} - {longest_end.strftime('%b %d')}" if longest_start and longest_end else "Max"
-
-    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 185" width="100%" height="100%">
-  <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&amp;display=swap');
-      
-      .bg {{ fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 8px; }}
-      .title-white {{ font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 32px; fill: #ffffff; text-anchor: middle; }}
-      .title-orange {{ font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 32px; fill: #f78166; text-anchor: middle; }}
-      .title-green {{ font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 32px; fill: #7ee787; text-anchor: middle; }}
-
-      .lbl-main {{ font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 14px; fill: #c9d1d9; text-anchor: middle; }}
-      .lbl-sub {{ font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 12px; fill: #8b949e; text-anchor: middle; }}
-      
-      .divider {{ stroke: #30363d; stroke-width: 1px; }}
-    </style>
-  </defs>
-
-  <!-- Background -->
-  <rect class="bg" width="720" height="185" rx="8" />
-
-  <!-- Column 1: Total Contributions -->
-  <g transform="translate(120, 0)">
-    <text x="0" y="80" class="title-white">{total_contribs}</text>
-    <text x="0" y="118" class="lbl-main">Total Contributions</text>
-    <text x="0" y="144" class="lbl-sub">2026 Year-to-Date</text>
-  </g>
-
-  <!-- Divider 1 -->
-  <line x1="240" y1="28" x2="240" y2="155" class="divider" />
-
-  <!-- Column 2: Current Streak with Centered Flame Circle Badge -->
-  <g transform="translate(360, 0)">
-    <!-- Circle Badge -->
-    <circle cx="0" cy="46" r="22" fill="#161b22" stroke="#f78166" stroke-width="2px" />
-    
-    <!-- Flame Icon Centered at (0, 46) -->
-    <path d="M 0,34 C -4,41 -8,45 -5,51 C -3,55 1,57 5,52 C 7,50 7,47 5,45 C 9,48 10,51 8,54 C 6,57 1,59 -2,56 C -6,51 -4,45 0,34 Z" fill="#f78166" />
-    
-    <text x="0" y="104" class="title-orange">{active_streak} Days</text>
-    <text x="0" y="132" class="lbl-main" fill="#f78166">Current Streak</text>
-    <text x="0" y="150" class="lbl-sub">{active_str}</text>
-  </g>
-
-  <!-- Divider 2 -->
-  <line x1="480" y1="28" x2="480" y2="155" class="divider" />
-
-  <!-- Column 3: Longest Streak -->
-  <g transform="translate(600, 0)">
-    <text x="0" y="80" class="title-green">{max_streak} Days</text>
-    <text x="0" y="118" class="lbl-main">Longest Streak</text>
-    <text x="0" y="144" class="lbl-sub">{longest_str}</text>
-  </g>
-</svg>
-'''
-    return svg_content
-
-if __name__ == "__main__":
-    out_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "streak_card.svg")
-    try:
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(get_streak_svg())
-    except Exception:
-        sys.stdout.write(get_streak_svg())
