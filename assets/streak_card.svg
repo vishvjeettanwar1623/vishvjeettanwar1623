@@ -20,7 +20,7 @@
 
   <!-- Column 1: Total Contributions -->
   <g transform="translate(120, 0)">
-    <text x="0" y="80" class="title-white">502</text>
+    <text x="0" y="80" class="title-white">506</text>
     <text x="0" y="118" class="lbl-main">Total Contributions</text>
     <text x="0" y="144" class="lbl-sub">Past 1 Year</text>
   </g>
@@ -36,9 +36,9 @@
     <!-- Flame Icon Centered at (0, 46) -->
     <path d="M 0,34 C -4,41 -8,45 -5,51 C -3,55 1,57 5,52 C 7,50 7,47 5,45 C 9,48 10,51 8,54 C 6,57 1,59 -2,56 C -6,51 -4,45 0,34 Z" fill="#f78166" />
     
-    <text x="0" y="104" class="title-orange">0 Days</text>
+    <text x="0" y="104" class="title-orange">49 Days</text>
     <text x="0" y="132" class="lbl-main" fill="#f78166">Current Streak</text>
-    <text x="0" y="150" class="lbl-sub">Active</text>
+    <text x="0" y="150" class="lbl-sub">Jul 18 - Sep 04</text>
   </g>
 
   <!-- Divider 2 -->
@@ -46,8 +46,8 @@
 
   <!-- Column 3: Longest Streak -->
   <g transform="translate(600, 0)">
-    <text x="0" y="80" class="title-green">47 Days</text>
+    <text x="0" y="80" class="title-green">49 Days</text>
     <text x="0" y="118" class="lbl-main">Longest Streak</text>
-    <text x="0" y="144" class="lbl-sub">Jul 18 - Sep 02</text>
+    <text x="0" y="144" class="lbl-sub">Jul 18 - Sep 04</text>
   </g>
 </svg>
