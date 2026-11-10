@@ -8,7 +8,7 @@
   <br /><br />
 
   <!-- Animated Contribution Matrix -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/contribution_zoomin.svg?v=20260904" width="100%" alt="Contribution Matrix" /></a>
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/contribution_zoomin.svg?v=20261110" width="100%" alt="Contribution Matrix" /></a>
 </div>
 
 <br />
@@ -95,7 +95,7 @@
 
 <div align="center">
   <!-- Self-Hosted Streak Stats SVG (100% Bulletproof, Zero Rate Limits) -->
-  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/streak_card.svg?v=20260904" width="100%" alt="GitHub Streak Stats" /></a>
+  <a href="https://github.com/vishvjeettanwar1623" target="_blank" rel="noopener noreferrer"><img src="assets/streak_card.svg?v=20261110" width="100%" alt="GitHub Streak Stats" /></a>
 </div>
 
 <hr style="border: 0; height: 1px; background: #30363d;" />
